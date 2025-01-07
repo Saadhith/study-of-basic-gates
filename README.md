@@ -65,6 +65,7 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
 module appu3(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
@@ -76,6 +77,7 @@ nor g5(y5,a,b);
 xor g6(y6,a,b);
 xnor g7(y7,a,b);
 endmodule
+```
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
